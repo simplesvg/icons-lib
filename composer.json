@@ -1,7 +1,7 @@
 {
   "name": "simple-svg/icons",
   "description": "Simple SVG icons collection",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "library",
   "license": "MIT",
   "homepage": "https://simplesvg.com/",
@@ -19,5 +19,7 @@
   "require": {
     "php": ">=5.6",
     "simple-svg/icons-data": "dev-master"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
