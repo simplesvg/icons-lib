@@ -13,7 +13,7 @@
 
 namespace SimpleSVG\Icons;
 
-use \SimpleSVG\IconsData\Finder as Data;
+use \Iconify\IconsJSON\Finder as Data;
 
 class Finder
 {

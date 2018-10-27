@@ -1,25 +1,17 @@
 {
   "name": "simple-svg/icons",
-  "description": "Simple SVG icons collection",
-  "version": "2.0.1",
+  "description": "Simple SVG icons collection (old repository)",
+  "version": "2.0.2",
   "type": "library",
   "license": "MIT",
-  "homepage": "https://simplesvg.com/",
+  "homepage": "https://iconify.design/",
   "autoload": {
     "psr-4": {
       "SimpleSVG\\Icons\\": "lib"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:simplesvg/icons.git"
-    }
-  ],
   "require": {
     "php": ">=5.6",
-    "simple-svg/icons-data": "dev-master"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "iconify/json": "*"
+  }
 }
